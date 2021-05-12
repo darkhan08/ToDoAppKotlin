@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/safe"
+        android:title="update"
+        android:icon="@drawable/ic_baseline_save_24"
+        app:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_delete_24"
+        app:iconTint="@color/white"
+        />
+
+
+</menu>
